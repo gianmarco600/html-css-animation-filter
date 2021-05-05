@@ -20,7 +20,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: filter 1s;
+    transition: all 1s;
 }
 .ex-5-square {
     margin: 20px;
@@ -93,10 +93,15 @@
 
 .ex-4-square:hover{
     filter: opacity(0);
+    
 }
 
 .ex-5-square:hover{
     transform:scale(2)
+}
+
+.ex-5-square:active{
+    transform: scale(0.4);
 }
 
 .ex-6-img:hover{
